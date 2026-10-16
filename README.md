@@ -7,6 +7,7 @@ This repository benchmarks a Multi-Class Credit Risk Prediction Model (30,000-ro
 ##  Model Evaluation & Architecture Comparison
 
 | Model Architecture | Optimization Strategy | Best Macro F1-Score | Overall Accuracy |
+| :--- | :--- | :--- | :--- |
 | XGBoost Classifier | Bayesian Tuned (Optuna) | 0.7018 | 90% |
 | FT-Transformer | Bayesian Tuned (Optuna) | 0.6194 | 85% |
 
