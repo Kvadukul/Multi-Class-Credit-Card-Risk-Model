@@ -29,8 +29,9 @@ Evaluated on a held-out test set of 6,000 samples:
    macro avg       0.75      0.67      0.70      6000
 weighted avg       0.89      0.90      0.89      6000
 
-Confusion Matrix:
-[[4505  114    2    1]
- [  56  607   96   12]
- [ 207   92  222    8]
- [   6   23    9   40]]
+|Confusion Matrix:|
+| :--- | :--- | :--- | :--- |
+| 4505 | 114 | 2 | 1 |
+| 56 | 607 | 96 | 12 |
+| 207| 92 | 222 | 8 |
+| 6 | 23 | 9 | 40 |
