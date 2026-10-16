@@ -29,9 +29,12 @@ Evaluated on a held-out test set of 6,000 samples:
    macro avg       0.75      0.67      0.70      6000
 weighted avg       0.89      0.90      0.89      6000
 
-|Confusion Matrix:|
-| :--- | :--- | :--- | :--- |
-| 4505 | 114 | 2 | 1 |
-| 56 | 607 | 96 | 12 |
-| 207| 92 | 222 | 8 |
-| 6 | 23 | 9 | 40 |
+
+### Confusion Matrix Breakdown (XGBoost)
+
+| Predicted | Class 0 (Paid) | Class 1 (Early Delay) | Class 2 (Moderate) | Class 3 (Severe) |
+| :--- | :---: | :---: | :---: | :---: |
+| Class 0 (Paid)** | 4,505 | 114 | 2 | 1 |
+| Class 1 (Early Delay) | 56 | 607 | 96 | 12 |
+| Class 2 (Moderate) | 207 | 92 | 222 | 8 |
+| Class 3 (Severe) | 6 | 23 | 9 | 40 |
