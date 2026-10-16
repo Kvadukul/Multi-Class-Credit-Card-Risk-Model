@@ -1,15 +1,14 @@
 # Multi-Class-Credit-Card-Risk-Model
 
-This repository benchmarks a **Multi-Class Credit Risk Prediction Model** (~30,000-row financial dataset across 4 risk tiers: 0 to 3). It evaluates the impact of Bayesian hyperparameter optimization (Optuna) and compares a traditional gradient boosting tree architecture (XGBoost) against a deep learning self-attention model (FT-Transformer).
+This repository benchmarks a Multi-Class Credit Risk Prediction Model (30,000-row financial dataset across 4 risk tiers: 0 to 3). It evaluates the impact of Bayesian hyperparameter optimization (Optuna) and compares a traditional gradient boosting tree architecture (XGBoost) against a deep learning self-attention model (FT-Transformer).
 
 
 
 ##  Model Evaluation & Architecture Comparison
 
 | Model Architecture | Optimization Strategy | Best Macro F1-Score | Overall Accuracy |
-| :--- | :--- | :--- | :--- |
-| **XGBoost Classifier** | Bayesian Tuned (Optuna) | **0.7018** | **90%** |
-| **FT-Transformer** | Bayesian Tuned (Optuna) | **0.6194** | ~85% |
+| XGBoost Classifier | Bayesian Tuned (Optuna) | 0.7018 | 90% |
+| FT-Transformer | Bayesian Tuned (Optuna) | 0.6194 | 85% |
 
 ---
 
